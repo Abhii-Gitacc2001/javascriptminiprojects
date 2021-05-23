@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="mystyle.css">
+    <title>javascripts mini projects</title>
+</head>
+
+<body>
+
+    <div class="container-1">
+        <h1>Challenge:1 calculate age in days</h1>
+        <hr>
+        <div class="buttonss">
+
+            <button class="btn btn-lg btn-primary" onclick="giveage()">Click me</button>
+            <button class="btn btn-lg btn-danger" onclick="resetage()">Reset</button>
+
+        </div>
+        <div class="buttonss" id="age-div"></div>
+
+    </div>
+
+    <div class="container-2">
+        <h1>Challenge:2 Cat Generator</h1>
+        <div class="cat-button">
+            <button class="btn btn-lg btn-primary " onclick="catgen()">Cat Generator</button>
+        </div>
+        <hr>
+        <div class="style-cat-image" id="cat-image-id">
+           
+        </div>
+    </div>
+    <div class="container-3">
+
+        <h1>Challenge:3 Color converter</h1>
+        <div class="color-container">
+
+            <form action="">
+                <select name="color-option" id="slector" onchange="colorchanged(this)">
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                    <option value="random">random</option>
+                    <option value="reset">reset</option>
+                </select>
+                
+            </form>
+    
+                <button class="btn btn-lg  butt-all btn-primary " >Google</button>
+                <button class="btn btn-lg butt-all  btn-danger " >Facebook</button>
+                <button class="btn btn-lg  butt-all btn-warning " >Oracle</button>
+                <button class="btn btn-lg  butt-all btn-success " >D-shaw</button>
+            
+        </div>
+        
+    </div>
+    <div class="container-4">
+        <h1>Challenge 4: Stone Papper & Scissor Game</h1>
+        <div class="threesps" id="sps">
+        <img src="stone.png" id="stone" height="150px" width="150px" onclick="callgamefun(this)" alt="">
+        <img src="paper.png" id="paper" height="150px" width="150px" onclick="callgamefun(this)" alt="">
+        <img src="scissior.png" id="scissior" height="150px" width="150px" onclick="callgamefun(this)" alt="">
+
+        </div>
+
+
+    </div>
+    
+
+
+
+    <script src="myscripts.js"></script>
+    <script src="js/bootstrap.jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

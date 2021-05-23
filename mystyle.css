@@ -1,0 +1,23 @@
+.container-1 ,.container-2 ,.container-3,.container-4{
+    width: 75%;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: auto;
+}
+.buttonss ,.cat-button,.style-cat-image,.color-container,.threesps{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cat-image{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    box-shadow:5px 5px 5px 5px darkgray;
+    margin: 20px;
+}
+.container-4 div img:hover{
+    box-shadow:0px 10px 50px  blue;
+}
